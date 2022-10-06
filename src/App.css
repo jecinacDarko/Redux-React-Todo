@@ -1,0 +1,25 @@
+.App { 
+  text-align:center;
+  overflow:hidden;
+}
+  
+.App__headline {
+  padding:10px;
+  color:white;
+  height:10vh;  
+  align-items:center;
+  font-weight:bold;
+  font-size:2em;
+}
+
+@media screen and (min-width: 960px) {
+  .body {
+    margin-top:-50px;
+    max-width:40%;    
+  }
+
+  .App {
+    max-width:50%;
+    margin:auto;
+  }
+}
