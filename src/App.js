@@ -7,7 +7,7 @@ function App() {
   return (
     <main className="App">
       <header>        
-        <h1 className="App__headline"> My Todo App </h1>     
+        <h1 className="App__headline"> TODO APP </h1>     
       </header>
       <Form />
       <TodoList/>
