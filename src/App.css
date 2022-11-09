@@ -11,23 +11,23 @@
   box-sizing:border-box;
   color:white;
   height:10vh;
-  padding: 40px;
   font-weight:bold;
   font-size:2em;
   background-color:rgb(58, 54, 54);
   width:100%;
+  padding:10px;
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 800px) {
   .body {
     margin-top:-50px;
-    background-color:white;    
+    background-color:white;
   }
 
   .App {
     width:60%;
-    max-height:80vh;
+    height:80vh;
     overflow:scroll;
     margin:10vh auto;
     background-color: rgb(238, 235, 235);
@@ -44,11 +44,8 @@
   }
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1600px) {
     .App {
       max-width:30%;
-    }
-    .App__headline {
-      
     }
 }    

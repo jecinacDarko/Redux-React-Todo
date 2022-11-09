@@ -37,12 +37,8 @@
   .form--title,
   .form--description {
     padding:10px;
-  }
-}  
-@media screen and (min-width: 900px) {
-  .form--title,
-  .form--description {
     font-size:1em;
     padding:10px;
   }
-}
+}  
+
