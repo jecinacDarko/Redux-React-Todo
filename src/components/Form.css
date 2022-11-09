@@ -11,6 +11,11 @@
   width:100%;
   border:none;
   height:4vh; 
+  border:1px solid gray;
+  height:5vh;
+  border-radius:3x;
+  padding:10px;
+  font-size:1.2em;
 }
 
 .form__addButton {
@@ -20,10 +25,24 @@
   font-weight:bold;
   margin:15px auto;
   color:white;
-  font-size:80%;
-  background-color:rgb(54, 192, 189);
+  font-size:1em;
+  background-color:rgb(55, 167, 92);
   overflow:hidden; 
   border-radius:5px;
   border:1px solid white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (min-width: 900px) {
+  .form--title,
+  .form--description {
+    padding:10px;
+  }
 }  
+@media screen and (min-width: 900px) {
+  .form--title,
+  .form--description {
+    font-size:1em;
+    padding:10px;
+  }
+}

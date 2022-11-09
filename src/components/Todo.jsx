@@ -16,7 +16,7 @@ function Todo(props) {
         <p className="todo--toggle-completed--description">{todo.description}</p>
         
       </article>
-        {todo.done && <button className="todo__button--remove" onClick = {()=> dispatch(removeItem(todo.id))}>REMOVE</button>}
+        {todo.done && <button className="todo__button--remove" onClick = {()=> dispatch(removeItem(todo.id))}>Delete Todo</button>}
     </section>
   );
 

@@ -1,25 +1,54 @@
-.App { 
+.App {
   text-align:center;
   overflow:hidden;
+  text-align:center;
+  align-items:center;
+  justify-content:center;
+  height:80%;
 }
   
 .App__headline {
-  padding:10px;
+  box-sizing:border-box;
   color:white;
-  height:10vh;  
-  align-items:center;
+  height:10vh;
+  padding: 40px;
   font-weight:bold;
   font-size:2em;
+  background-color:rgb(58, 54, 54);
+  width:100%;
+
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1024px) {
   .body {
     margin-top:-50px;
-    max-width:40%;    
+    background-color:white;    
   }
 
   .App {
-    max-width:50%;
-    margin:auto;
+    width:60%;
+    max-height:80vh;
+    overflow:scroll;
+    margin:10vh auto;
+    background-color: rgb(238, 235, 235);
+    border: 0.5px solid whitesmoke;
+    min-height:60vh;
+    border-radius:10px;
+    font-size:1.5em;
+  }
+
+  .App__headline {
+    font-size:2em;
+    margin:0;
+    padding:30px;
   }
 }
+
+@media screen and (min-width: 2000px) {
+    .App {
+      max-width:30%;
+    }
+    .App__headline {
+      
+    }
+}    
